@@ -2,7 +2,7 @@
 
 For more info: https://github.com/gitname/react-gh-pages
 
-# With a script
+## With a script
 
 Use the script file attached
 
