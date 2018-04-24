@@ -9,6 +9,7 @@ read -p 'Write "ok", if you wish to continue, otherwise just press enter: ' answ
 
 if (($answer == "ok")); then
 	read -p 'App name: ' appname
+	sudo npm install -g create-react-app
 	create-react-app $appname
 	cd $appname 
 	npm install gh-pages --save-dev
