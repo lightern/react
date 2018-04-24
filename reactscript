@@ -19,7 +19,7 @@ if (($answer == "ok")); then
 	sed -i '16i\    "deploy": "gh-pages -d build",' ./package.json
 
 	git init
-	git remote add origin $'https://github.com/lightern/'${appname}$'.git'
+	git remote add origin $'https://github.com/lightern/'${appname}$'raw.git'
 
 	npm run deploy
 fi
