@@ -28,3 +28,8 @@ Files:
 * js/app.js includes the actual functions
 * js/dom-loader includes the elements in the DOM
 * node_modules folder includes the libraries used by Webpack
+
+What you need:
+
+* github address (where the page is visible)
+* domain 
