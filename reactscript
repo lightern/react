@@ -14,12 +14,12 @@ if (($answer == "ok")); then
 	cd $appname 
 	npm install gh-pages --save-dev
 
-	sed -i $'5i\  "homepage": "http://lightern.github.io/'${appname}$'",' ./package.json
+	sed -i $'5i\  "homepage": "http://lightern.github.io/'${appname}$'_page",' ./package.json
 	sed -i '15i\    "predeploy": "npm run build",' ./package.json
 	sed -i '16i\    "deploy": "gh-pages -d build",' ./package.json
 
 	git init
-	git remote add origin $'https://github.com/lightern/'${appname}$'raw.git'
+	git remote add origin $'https://github.com/lightern/'${appname}$'.git'
 
 	npm run deploy
 fi
