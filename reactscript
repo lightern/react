@@ -22,4 +22,8 @@ if (($answer == "ok")); then
 	git remote add origin $'https://github.com/lightern/'${appname}$'.git'
 
 	npm run deploy
+	
+	git add .
+	git commit -m "Create a React app and publish it to GitHub Pages"
+	git push origin master
 fi
