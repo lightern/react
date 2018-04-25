@@ -6,6 +6,14 @@ Also: https://www.youtube.com/watch?v=GU-2T7k9NfI
 
 Please use the script file attached
 
+To use existing:
+
+```
+git clone -b master https://github.com/lightern/heavy.git
+cd heavy
+npm install
+```
+
 Process:
 
 * create-react-app (npm installed app) creates a new React project
