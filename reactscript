@@ -16,7 +16,7 @@ if (($answer == "ok")); then
 	# --save-dev means that this package is only used in development environment
 	npm install gh-pages --save-dev
 
-	sed -i $'5i\  "homepage": "http://lightern.github.io/'${appname}$'_page",' ./package.json
+	sed -i $'5i\  "homepage": "http://lightern.github.io/'${appname}$'",' ./package.json
 	sed -i '15i\    "predeploy": "npm run build",' ./package.json
 	sed -i '16i\    "deploy": "gh-pages -d build",' ./package.json
 
