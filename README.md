@@ -26,7 +26,7 @@ Tools used:
 
 * npm (package manager for NodeJS backend)
 * React is library for building UI
-* Webpack bundles stuff into one file (installed to project with npm)
+* Webpack bundles all stuf in /src folder f into one file (installed to project with npm)
 * Babel ES5 transpiler that will transpile ES6 to ES5
 * Redux
 
