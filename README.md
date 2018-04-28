@@ -30,6 +30,7 @@ Tools used:
 * Babel ES5 transpiler that will transpile ES6 to ES5
 * JSX enables writing "HTML" inside React
 * Redux
+* react-boostrap includes all react-boostrap components (installed via npm)
 
 
 Files:
