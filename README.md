@@ -28,7 +28,7 @@ Tools used:
 * React is library for building UI
 * Webpack bundles stuff into one file (installed to project with npm)
 * Babel ES5 transpiler that will transpile ES6 to ES5
-* Redox
+* Redux
 
 
 Files:
@@ -37,6 +37,7 @@ Files:
 * js/app.js includes the actual functions
 * js/dom-loader includes the elements in the DOM
 * node_modules folder includes the libraries used by Webpack
+* index.js has the information of what is injected to index.html file to <div "root"> (for example)
 
 What you need:
 
