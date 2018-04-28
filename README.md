@@ -28,6 +28,7 @@ Tools used:
 * React is library for building UI
 * Webpack bundles all stuf in /src folder few big files to /static folder and also adds script line to index.html (webpack is installed to project with npm)
 * Babel ES5 transpiler that will transpile ES6 to ES5
+* JSX enables writing "HTML" inside React
 * Redux
 
 
