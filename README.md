@@ -45,3 +45,8 @@ What you need:
 
 * github address (where the page is visible)
 * domain 
+
+When creating PostreSQL database:
+ * First line as SERIAL and primary key
+ * remember to run in phppgadmin (gives permission for automatic id numbering): GRANT USAGE, SELECT ON SEQUENCE companies_<idcolumn>_seq TO <database_username>
+ * sudo ssh <hostingusername>@<hostingaddress> -p<hostingport, for example 21098> -L 5432:127.0.0.1:5432 -N
