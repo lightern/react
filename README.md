@@ -6,6 +6,15 @@ Also: https://www.youtube.com/watch?v=GU-2T7k9NfI
 
 Please use the script file attached
 
+If having compile problems with error message:
+"Error: ENOSPC: no space left on device, watch '/home/user/react/projectname/public'"
+With Arch linux:
+```
+echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/40-max-user-watches.conf && sudo sysctl --system
+```
+For other os:s and more info: https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers
+
+
 To use existing:
 
 ```
