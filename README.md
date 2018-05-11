@@ -6,7 +6,7 @@ Also: https://www.youtube.com/watch?v=GU-2T7k9NfI
 
 Please use the script file attached
 
-If having compile problems with error message:
+## If having compile problems with error message:
 
 "Error: ENOSPC: no space left on device, watch '/home/user/react/projectname/public'"
 
@@ -17,7 +17,7 @@ echo fs.inotify.max_user_watches=524288 | sudo tee /etc/sysctl.d/40-max-user-wat
 For other os:s and more info: https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers
 
 
-To use existing:
+## To use existing:
 
 ```
 git clone -b master https://github.com/lightern/heavy.git
@@ -25,7 +25,7 @@ cd heavy
 npm install
 ```
 
-Process:
+## Process:
 
 * create-react-app (npm installed app) creates a new React project
 * npm (NodeJS) installs gh-pages (with that one can publish files to gh-pages branch on GitHub)
@@ -33,7 +33,7 @@ Process:
 * Use "git init" -command to initialize github project (will create .github folder)
 * npm run deploy to package and send the files to github
 
-Tools used:
+## Tools used:
 
 * npm (package manager for NodeJS backend)
 * React is library for building UI
@@ -44,7 +44,7 @@ Tools used:
 * react-boostrap includes all react-boostrap components (installed via npm)
 
 
-Files:
+## Files:
 
 * package.json keeps inside some information for npm, created on "npm init" (with that you can initialize the project)
 * js/app.js includes the actual functions
@@ -52,12 +52,12 @@ Files:
 * node_modules folder includes the libraries used by Webpack
 * index.js has the information of what is injected to index.html file to <div "root"> (for example)
 
-What you need:
+## What you need:
 
 * github address (where the page is visible)
 * domain 
 
-When creating PostreSQL database:
+## When creating PostreSQL database:
  * First line as SERIAL and primary key
  * remember to run in phppgadmin (gives permission for automatic id numbering): GRANT USAGE, SELECT ON SEQUENCE companies_<idcolumn>_seq TO <database_username>
  * sudo ssh <hostingusername>@<hostingaddress> -p<hostingport, for example 21098> -L 5432:127.0.0.1:5432 -N
