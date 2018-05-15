@@ -46,6 +46,9 @@ npm install
 ## Deployment:
 
 * Disable registerServiceWorker(); import registerServiceWorker from ‘register-service-worker’ in index.js
+```
+npm run build
+```
 
 ## Files:
 
