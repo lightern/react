@@ -43,6 +43,9 @@ npm install
 * Redux
 * react-boostrap includes all react-boostrap components (installed via npm)
 
+## Deployment:
+
+* Disable registerServiceWorker(); import registerServiceWorker from ‘register-service-worker’ in index.js
 
 ## Files:
 
