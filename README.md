@@ -49,7 +49,7 @@ npm install
 ```
 npm run build
 ```
-* Insert these to .htaccessif using Apache (https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment):
+* Insert these to .htaccess if using Apache (https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment):
 ```
     Options -MultiViews
     RewriteEngine On
