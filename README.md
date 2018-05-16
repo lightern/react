@@ -49,6 +49,14 @@ npm install
 ```
 npm run build
 ```
+* Insert these to .htaccessif using Apache (https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment):
+```
+    Options -MultiViews
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.html [QSA,L]
+```
+
 
 ## Files:
 
